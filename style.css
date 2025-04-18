@@ -25,6 +25,17 @@
 .contact_form{
     padding-top: 3rem;
 }
+.no-outline:focus{
+    outline: none !important;
+    border:none !important;
+    border-color : transparent !important;
+}
+.form-select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
 .text1{
     justify-content: center;
     align-items: center;
